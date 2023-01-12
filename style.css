@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    background: hsl(0, 0%, 95%);
+    min-height: 100vh;
+}
+
+.container {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.button {
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 12em 0 12em 0;
+        flex-direction: column;
+        width: 50vh;
+    }
+}
